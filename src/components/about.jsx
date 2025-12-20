@@ -1,3 +1,4 @@
+import img from '../assets/images/about-me.png';
 export default function AboutSection() {
   return (
     <>
@@ -51,22 +52,28 @@ export default function AboutSection() {
               </p>
               <div className="grid grid-cols-2 md:grid-cols-4 gap-4 mb-6">
                 <div className="text-center">
-                  <div className="text-3xl font-bold text-[#E11D48]">3+</div>
-                  <div className="text-sm text-gray-500">Years Experience</div>
-                </div>
-                <div className="text-center">
-                  <div className="text-3xl font-bold text-[#E11D48]">30+</div>
+                  <div className="text-3xl font-bold text-[#E11D48]">2+</div>
                   <div className="text-sm text-gray-500">
-                    Projects Completed
+                    Cloud & DevOps Projects Completed
                   </div>
                 </div>
                 <div className="text-center">
-                  <div className="text-3xl font-bold text-[#E11D48]">15+</div>
-                  <div className="text-sm text-gray-500">Clients Served</div>
+                  <div className="text-3xl font-bold text-[#E11D48]">5+</div>
+                  <div className="text-sm text-gray-500">
+                    Core AWS Services Hands-On
+                  </div>
                 </div>
                 <div className="text-center">
-                  <div className="text-3xl font-bold text-[#E11D48]">4+</div>
-                  <div className="text-sm text-gray-500">AI Projects</div>
+                  <div className="text-3xl font-bold text-[#E11D48]">2+</div>
+                  <div className="text-sm text-gray-500">
+                    Containerized Applications Built (Docker/Kubernetes)
+                  </div>
+                </div>
+                <div className="text-center">
+                  <div className="text-3xl font-bold text-[#E11D48]">10+</div>
+                  <div className="text-sm text-gray-500">
+                    Web Development Projects (React, Node.js, REST APIs)
+                  </div>
                 </div>
               </div>
 

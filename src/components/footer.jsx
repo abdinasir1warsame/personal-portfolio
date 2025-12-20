@@ -7,7 +7,7 @@ export default function Footer() {
           <div className="flex flex-col md:flex-row justify-between items-center">
             <div className="mb-4 md:mb-0">
               <div className="flex items-center">
-                <div className="w-8 h-8 rounded-full bg-[#E11D48] p-2 flex items-center justify-center text-white font-bold mr-2">
+                <div className="w-8 h-8 rounded-full bg-[#E11D48] p-5 flex items-center justify-center text-white font-bold mr-2">
                   AW
                 </div>
                 <h3 className="text-lg font-bold">
@@ -16,7 +16,7 @@ export default function Footer() {
                 </h3>
               </div>
               <p className="text-black mt-2">
-                Building intelligent solutions for the future.
+                Delivering reliable apps and infrastructure.
               </p>
             </div>
 
