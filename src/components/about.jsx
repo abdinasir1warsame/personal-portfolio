@@ -2,7 +2,7 @@ export default function AboutSection() {
   return (
     <>
       {/* About Section */}
-      <section id="about" className="py-20 bg-gray-50">
+      <section id="about" className="py-15 bg-gray-50">
         <div className="container mx-auto px-4">
           <div className="flex flex-col md:flex-row items-center gap-10">
             <div className="md:w-2/5">
@@ -26,14 +26,22 @@ export default function AboutSection() {
                 About Me
               </div>
               <h2 className="text-3xl md:text-4xl font-bold mb-6">
-                Merging <span className="text-[#E11D48]">AI</span> with{' '}
-                <span className="text-[#FBBF24]">Development</span>
+                {/* Infrastructure Meets Application Development */}
+                Infrastructure <span className="text-[#E11D48]">
+                  Meets
+                </span>{' '}
+                Application <span className="text-[#FBBF24]">Development</span>
               </h2>
               <p className="text-gray-600 mb-4">
-                I'm a full-stack developer focused on AI-powered solutions and
-                building seamless user experiences. With over 3 years in the
-                tech space, I've worked on projects ranging from intelligent
-                career tools to modern SaaS platforms.
+                I'm a DevOps Engineer and Full-Stack Developer specializing in
+                building reliable, scalable systems and modern web applications.
+                My work spans infrastructure automation, cloud deployments,
+                CI/CD pipelines, and application development with a focus on
+                maintainability and performance. I combine hands-on coding with
+                infrastructure management to deliver solutions that are both
+                robust and adaptable. By leveraging tools like AWS, Docker,
+                Kubernetes, Terraform, and React, I create systems that are
+                efficient, secure, and scalable.
               </p>
               <p className="text-gray-600 mb-6">
                 My workflow blends hands-on coding with strategic thinking to

@@ -708,16 +708,16 @@ function App() {
             <div className="md:w-1/2 mb-10 md:mb-0">
               <div className="relative z-10">
                 <div className="inline-block px-3 py-1 mb-4 rounded-full bg-[#FBBF24]/20 text-[#E11D48] font-medium">
-                  AI-Focused Full Stack Developer
+                  DevOps Engineer & Full-Stack Developer
                 </div>
                 <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold mb-6">
-                  Crafting <span className="text-[#E11D48]">Smart</span> Tools
-                  for Career Growth
+                  Building <span className="text-[#E11D48]">Scalable</span>{' '}
+                  Systems and Modern Web Applications
                 </h1>
                 <p className="text-lg text-gray-600 mb-8 max-w-lg">
-                  I build modern web platforms powered by AI to guide careers
-                  and empower users. Let’s create something purposeful and
-                  effective.
+                  I design and deploy scalable applications and cloud
+                  infrastructure, combining DevOps practices with modern web
+                  development to build reliable, efficient systems
                 </p>
                 <div className="flex flex-wrap gap-4">
                   <Button
