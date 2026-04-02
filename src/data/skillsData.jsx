@@ -1,82 +1,62 @@
 export const skillsData = [
   {
-    category: 'Cloud Platforms & DevOps',
+    category: 'Cloud & Infrastructure (AWS)',
     items: [
-      'AWS',
-      'Linux Administration',
-      'Bash Scripting',
-      'Git',
-      'CI/CD Pipelines',
-      'GitHub Actions',
-      'GitLab CI',
-      'Infrastructure as Code (IaC)',
-    ],
-  },
-  {
-    category: 'AWS Core Services',
-    items: [
-      'EC2 & Auto Scaling',
-      'ECS (Fargate)',
-      'EKS (Kubernetes)',
-      'IAM',
+      'AWS (EC2, Auto Scaling, ECS Fargate, EKS)',
       'VPC Networking',
+      'IAM Policies & Security',
       'Application & Network Load Balancers',
       'Route 53 (DNS)',
       'ACM (SSL/TLS)',
-    ],
-  },
-  {
-    category: 'Containerization & Orchestration',
-    items: [
-      'Docker',
-      'Docker Compose',
-      'Kubernetes',
-      'Container Image Optimization',
+      'CloudWatch (Logging & Metrics)',
     ],
   },
   {
     category: 'Infrastructure as Code',
     items: [
-      'Terraform',
+      'Terraform (State Management, Modules, DynamoDB Locking)',
       'AWS CloudFormation',
-      'Environment Configuration',
-      'Secrets Management',
-      'Infrastructure Automation',
+      'Secrets Manager',
+    ],
+  },
+  {
+    category: 'Containerization & Orchestration',
+    items: [
+      'Docker (Multi-stage Builds, Image Optimisation)',
+      'Docker Compose',
+      'Kubernetes (EKS)',
+    ],
+  },
+  {
+    category: 'CI/CD & Automation',
+    items: [
+      'GitHub Actions (OIDC, Workflows)',
+      'GitLab CI',
+      'Bash Scripting',
+      'Git',
     ],
   },
   {
     category: 'Full Stack Development',
     items: [
       'React.js',
+      'Tailwind CSS',
+      'JavaScript / TypeScript',
       'Node.js',
       'Express.js',
-      'JavaScript / TypeScript',
-      'HTML5 & CSS3',
-      'Tailwind CSS',
       'RESTful APIs',
     ],
   },
   {
-    category: 'Databases & Storage (Operational Exposure)',
-    items: ['MongoDB', 'MySQL', 'DynamoDB', 'Amazon S3'],
+    category: 'Databases & Storage',
+    items: ['PostgreSQL (RDS)', 'MongoDB', 'MySQL', 'DynamoDB', 'Amazon S3'],
   },
-
   {
-    category: 'Security & Networking',
+    category: 'Linux & Systems',
     items: [
-      'AWS IAM Policies',
+      'Linux Administration',
       'Security Groups & NACLs',
-      'SSL/TLS Configuration',
       'Network Segmentation',
-    ],
-  },
-  {
-    category: 'Monitoring & Optimization',
-    items: [
-      'Amazon CloudWatch',
-      'Logging & Metrics',
-      'Basic Performance Tuning',
-      'Cost Awareness & Optimization',
     ],
   },
 ];

@@ -9,7 +9,7 @@ import FeaturedProjectSection from './components/featuredProjectSection';
 
 function App() {
   // State for active tab
-  const [activeTab, setActiveTab] = useState('all');
+  const [activeTab, setActiveTab] = useState('ecs');
   // State for mobile menu
   const [mobileMenuOpen, setMobileMenuOpen] = useState(false);
   // State for scroll position
@@ -239,7 +239,9 @@ function App() {
             >
               Contact
             </a>
-            <Button primary>Resume</Button>
+            <Button primary href="/abdinasir-warsame-cv.pdf">
+              Resume
+            </Button>
           </nav>
 
           {/* Mobile menu button */}
@@ -326,7 +328,11 @@ function App() {
               >
                 Contact
               </a>
-              <Button primary className="w-full">
+              <Button
+                primary
+                href="/abdinasir-warsame-cv.pdf"
+                className="w-full"
+              >
                 Resume
               </Button>
             </div>

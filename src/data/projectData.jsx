@@ -3,16 +3,25 @@ import flavorLayorImg from '../assets/images/flavorLayer.png';
 import careerRoadmapImg from '../assets/images/career-Roadmap.png';
 import whipsImg from '../assets/images/whips.png';
 import barberimg from '../assets/images/barber-app.png';
+import memosImg from '../assets/images/memos-dashboard.png';
+import infrastructureImg from '../assets/images/Diagram2.png';
 
 // Main featured project
 export const featuredProject = {
-  title: 'AI Career Roadmap',
+  title: 'Memos on AWS ECS Fargate',
   description:
-    'Get personalized roadmaps, resume analysis, job-fit insights, curated training resources, and interview preparation — all powered by AI. Built with React, Firebase, and LangChain integrated with OpenAI for intelligent document parsing and guidance.',
-  tags: ['React', 'Firebase', 'LangChain', 'OpenAI', 'PDF Parsing'],
-  image: careerRoadmapImg,
-  github: 'https://github.com/your-username/ai-career-roadmap',
-  liveDemo: 'https://career-roadmap-3.vercel.app/',
+    'Production deployment of Memos, an open-source note-taking platform, on AWS ECS Fargate. Infrastructure is managed with Terraform, frontend and backend are built with multi-stage Docker containers, and CI/CD is automated via GitHub Actions. The architecture includes multi-AZ networking, load balancing, and an Amazon RDS PostgreSQL database for secure, persistent storage.',
+  tags: [
+    'AWS',
+    'ECS Fargate',
+    'Terraform',
+    'Docker',
+    'GitHub Actions',
+    'PostgreSQL',
+  ],
+  image: memosImg,
+  infrastructureImage: infrastructureImg,
+  github: 'https://github.com/abdinasir1warsame/ECS-Project',
 };
 
 // All projects categorized with the new structure
@@ -20,6 +29,27 @@ export const projectsData = {
   all: [
     {
       id: 1,
+      title: 'Memos on AWS ECS Fargate',
+      description:
+        'Production deployment of Memos, an open-source note-taking platform, on AWS ECS Fargate. Infrastructure defined as code with Terraform, multi-stage Docker builds, and CI/CD automation with GitHub Actions.',
+      tags: [
+        'AWS',
+        'ECS Fargate',
+        'Terraform',
+        'Docker',
+        'GitHub Actions',
+        'React',
+        'Go',
+        'PostgreSQL',
+      ],
+      image: memosImg,
+      infrastructureImage: infrastructureImg,
+      github: 'https://github.com/abdinasir1warsame/ECS-Project',
+      categories: ['ecs'],
+    },
+
+    {
+      id: 2,
       title: 'AI Career Roadmap',
       description:
         'Get personalized roadmaps, resume analysis, job-fit insights, curated training resources, and interview preparation — all powered by AI. Built with React, Firebase, and LangChain integrated with OpenAI for intelligent document parsing and guidance.',
@@ -27,10 +57,10 @@ export const projectsData = {
       image: careerRoadmapImg,
       github: 'https://github.com/your-username/ai-career-roadmap',
       liveDemo: 'https://career-roadmap-3.vercel.app/',
-      categories: ['ai'],
+      categories: ['web', 'ai'],
     },
     {
-      id: 2,
+      id: 3,
       title: 'Flavor Layer',
       description:
         'A dynamic recipe-sharing platform using React, TailwindCSS, Firebase, and OpenAI API integration.',
@@ -42,7 +72,7 @@ export const projectsData = {
       categories: ['web', 'ai'],
     },
     {
-      id: 3,
+      id: 4,
       title: 'Whips Car Rental',
       description:
         'Peer-to-peer car rental service enabling users to rent or list cars, built using MERN stack and AWS SDK.',
@@ -53,7 +83,7 @@ export const projectsData = {
       categories: ['web'],
     },
     {
-      id: 4,
+      id: 5,
       title: "Warsame's Barber",
       description:
         'A modern grooming appointment booking app built on the MERN stack for efficient scheduling and user experience.',
@@ -65,6 +95,17 @@ export const projectsData = {
     },
   ],
   web: [
+    {
+      id: 1,
+      title: 'AI Career Roadmap',
+      description:
+        'Get personalized roadmaps, resume analysis, job-fit insights, curated training resources, and interview preparation — all powered by AI. Built with React, Firebase, and LangChain integrated with OpenAI for intelligent document parsing and guidance.',
+      tags: ['React', 'Firebase', 'LangChain', 'OpenAI', 'PDF Parsing'],
+      image: careerRoadmapImg,
+      github: 'https://github.com/your-username/ai-career-roadmap',
+      liveDemo: 'https://career-roadmap-3.vercel.app/',
+      categories: ['web', 'ai'],
+    },
     {
       id: 2,
       title: 'Flavor Layer',
@@ -121,10 +162,28 @@ export const projectsData = {
     },
   ],
   ecs: [
-    // Empty for now - add ECS projects here when you have them
+    {
+      id: 5,
+      title: 'Memos on AWS ECS Fargate',
+      description:
+        'Production deployment of Memos, an open-source note-taking platform, on AWS ECS Fargate. Infrastructure defined as code with Terraform, multi-stage Docker builds, and CI/CD automation with GitHub Actions.',
+      tags: [
+        'AWS',
+        'ECS Fargate',
+        'Terraform',
+        'Docker',
+        'GitHub Actions',
+        'React',
+        'Go',
+        'PostgreSQL',
+      ],
+      image: memosImg,
+      github: 'https://github.com/abdinasir1warsame/ECS-Project',
+      infrastructureImage: infrastructureImg,
+    },
   ],
   eks: [
-    // Empty for now - add EKS projects here when you have them
+    // Empty for now - add EKS projects when you have them
   ],
 };
 

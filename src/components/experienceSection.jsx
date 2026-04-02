@@ -12,7 +12,7 @@ const Card = ({ children, className = '' }) => {
   );
 };
 
-const ExperienceCard = ({ title, company, period, description }) => {
+const ExperienceCard = ({ title, company, period, description, details }) => {
   return (
     <Card className="mb-4 p-5 border-l-4 border-l-[#E11D48]">
       <h3 className="text-xl font-bold text-[#1E293B]">{title}</h3>
@@ -20,7 +20,14 @@ const ExperienceCard = ({ title, company, period, description }) => {
         <span className="text-[#E11D48] font-medium">{company}</span>
         <span className="text-gray-500 text-sm">{period}</span>
       </div>
-      <p className="text-gray-600">{description}</p>
+      {description && <p className="text-gray-600 mb-3">{description}</p>}
+      {details && details.length > 0 && (
+        <ul className="list-disc list-inside space-y-1 text-gray-600">
+          {details.map((item, idx) => (
+            <li key={idx}>{item}</li>
+          ))}
+        </ul>
+      )}
     </Card>
   );
 };
@@ -49,6 +56,7 @@ const ExperienceSection = () => {
               company={exp.company}
               period={exp.period}
               description={exp.description}
+              details={exp.details}
             />
           ))}
         </div>

@@ -26,23 +26,24 @@ export default function AboutSection() {
               <div className="inline-block px-3 py-1 mb-4 rounded-full bg-[#E11D48]/10 text-[#E11D48] font-medium">
                 About Me
               </div>
+
               <h2 className="text-3xl md:text-4xl font-bold mb-6">
                 {/* Infrastructure Meets Application Development */}
-                Infrastructure <span className="text-[#E11D48]">
-                  Meets
-                </span>{' '}
-                Application <span className="text-[#FBBF24]">Development</span>
+                Infrastructure{' '}
+                <span className="text-[#E11D48]">Automation</span> &{' '}
+                <span className="text-[#FBBF24]">Cloud Engineering</span>
               </h2>
               <p className="text-gray-600 mb-4">
-                I'm a DevOps Engineer and Full-Stack Developer specializing in
-                building reliable, scalable systems and modern web applications.
-                My work spans infrastructure automation, cloud deployments,
-                CI/CD pipelines, and application development with a focus on
-                maintainability and performance. I combine hands-on coding with
-                infrastructure management to deliver solutions that are both
-                robust and adaptable. By leveraging tools like AWS, Docker,
-                Kubernetes, Terraform, and React, I create systems that are
-                efficient, secure, and scalable.
+                I'm a DevOps Engineer specializing in infrastructure automation,
+                cloud deployments, and CI/CD pipelines. I design and deploy
+                secure, scalable systems on AWS using tools like Terraform,
+                Docker, and GitHub Actions. My work includes building multi‑AZ
+                architectures, containerizing applications with ECS Fargate, and
+                automating everything as code. I also have experience in
+                full‑stack development (React, Node.js), which helps me bridge
+                the gap between infrastructure and application delivery. I focus
+                on reliability, security, and maintainability in every layer of
+                the stack.
               </p>
               <p className="text-gray-600 mb-6">
                 My workflow blends hands-on coding with strategic thinking to
@@ -58,7 +59,7 @@ export default function AboutSection() {
                   </div>
                 </div>
                 <div className="text-center">
-                  <div className="text-3xl font-bold text-[#E11D48]">5+</div>
+                  <div className="text-3xl font-bold text-[#E11D48]">10+</div>
                   <div className="text-sm text-gray-500">
                     Core AWS Services Hands-On
                   </div>
